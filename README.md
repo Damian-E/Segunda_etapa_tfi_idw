@@ -1,4 +1,4 @@
-# Primer_etapa_tfi_idw
+# Segunda_etapa_tfi_idw
 
 ## Integrantes del Proyecto.
 
