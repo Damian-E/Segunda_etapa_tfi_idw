@@ -1,0 +1,78 @@
+main {
+    background-color: #f5f7f6;
+    padding: 3rem 1.25rem;
+}
+
+.contenedor-consultas {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2.2rem 2.5rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.contenedor-consultas h1 {
+    margin-bottom: 0.75rem;
+    color: #2e7d32;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.contenedor-consultas > p {
+    margin-bottom: 2rem;
+    color: #555555;
+    text-align: center;
+}
+
+.grupo-campo {
+    margin-bottom: 1.25rem;
+}
+
+.grupo-campo label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #2c3e35;
+    font-weight: bold;
+}
+
+.grupo-campo input,
+.grupo-campo select,
+.grupo-campo textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font: inherit;
+}
+
+.grupo-campo input:focus,
+.grupo-campo select:focus,
+.grupo-campo textarea:focus {
+    border-color: #4a7c59;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(74, 124, 89, 0.2);
+}
+
+.btn-enviar {
+    width: 100%;
+    padding: 0.875rem;
+    border: 0;
+    border-radius: 22px;
+    background-color: #43a047;
+    color: #ffffff;
+    font: inherit;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-enviar:hover {
+    background-color: #2e7d32;
+}
+
+@media (max-width: 700px) {
+    .contenedor-consultas {
+        padding: 1.5rem;
+    }
+}

@@ -1,0 +1,24 @@
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./Roboto-VariableFont.ttf");
+    font-weight: 100 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("./assents/fonts/Poppins-Regular.ttf");
+    font-weight: 200 900;
+    font-style: normal;
+}
+
+
+
+
+.galeria-item:hover img {
+    transform: scale(1.08);
+    filter: brightness(0.85);
+}
+
+
+

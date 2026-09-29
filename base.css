@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("./assents/fonts/Poppins-Regular.ttf");
+    font-weight: 200 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: "DMSans";
+    src: url("./assents/fonts/DMSans-Italic-VariableFont.ttf");
+    font-weight: 200 900;
+    font-style: normal;
+}
+
+
+:root {
+    --font-titulos: "Poppins", sans-serif;
+    --font-texto: "DMSans", sans-serif;
+
+    --color-text-principal: #ffffff;
+    --color-text-secundario: #2c813f;
+    --color-text-atenuado: #09571a;
+    --color-text-footer-label: #d1d7df;
+    
+    /* ---- Colores de acento (azules) ---- */
+    --color-azul-acento: #4169E1;
+    --color-azul-oscuro: #2A4CB3;
+    --color-azul-suave-bg: #EAEFFC;
+    --color-azul-claro-sobre-azul: #D6DFFA;
+    
+    /* ---- Fondos ---- */
+    --color-bg-pagina: #F7F7F4;
+    --color-bg-tarjeta: #FFFFFF;
+    
+    /* ---- Bordes ---- */
+    --color-borde-general: #E4E3DE;
+    --color-borde-tabla: #EDECE7;
+    --color-borde-boton-secundario: #D7D6D0;
+
+    font-family: var(--font-texto);
+}
+
+[data-bs-theme="dark"] {
+    --color-text-principal: #121413;
+    --color-text-secundario: #81c784;
+    --color-text-atenuado: #a5d6a7;
+    --color-text-footer-label: #94a3b8;
+    
+    --color-bg-pagina: #111513;
+    --color-bg-tarjeta: #1a201c;
+    
+    --color-borde-general: #2b362e;
+    --color-borde-tabla: #242c27;
+    --color-borde-boton-secundario: #36443b;
+}
+
+
+ main {
+    display: flex;
+    flex-direction: column;
+    flex:1, 1, auto;
+}
+header, footer {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+  
+}
+
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+   
+}
+
+header{
+    display: flex;
+    padding: 1rem 3rem;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--color-borde-general);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.icon {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+}
+
